@@ -930,10 +930,6 @@ h6 {
 }
 
 @media (max-width: 64em) and (max-height: 68.75em) {
-  .page-site__right::before {
-    width: 70vw !important;
-  }
-
   .page-site__right .site-icon {
     width: 70vw !important;
     bottom: -100% !important;
@@ -1101,10 +1097,10 @@ h6 {
   }
 
   .page-site__right::before {
-    width: 140vw !important;
-    height: 140vw !important;
-    right: -50% !important;
-    bottom: -100% !important;
+    width: 100vw !important;
+    height: 100vw !important;
+    right: -10vw !important;
+    bottom: -20vh !important;
   }
 
   .page-site__right .site-icon {
