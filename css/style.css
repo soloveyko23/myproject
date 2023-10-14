@@ -1003,7 +1003,7 @@ h6 {
   }
 
   .page-site__right::before {
-    bottom: -35vh !important;
+    bottom: -15vh !important;
     right: -10% !important;
   }
 
