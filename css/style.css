@@ -1003,7 +1003,7 @@ h6 {
   }
 
   .page-site__right::before {
-    bottom: -15vh !important;
+    bottom: -65% !important;
     right: -10% !important;
   }
 
@@ -1099,7 +1099,7 @@ h6 {
 
 @media (max-width: 25em) {
   .page-site__right .site-icon {
-    bottom: -40% !important;
+    bottom: -70% !important;
   }
 }
 
@@ -1150,7 +1150,7 @@ h6 {
   .page-site__right::before {
     width: 50vw;
     height: 50vw;
-    right: 2vw;
+    right: 5vw;
     bottom: -70vh;
   }
 
@@ -1195,12 +1195,12 @@ h6 {
   }
 }
 
-@media (max-width: 64em) and (min-width: 48.0625em) {
+@media (max-width: 64em) and (min-width: 62.0625em) {
   .page-site__right::before {
     right: 3vw !important;
-    width: 50vw;
-    height: 50vw;
-    bottom: -45vh;
+    width: 70vw;
+    height: 70vw;
+    bottom: -75vh;
   }
 }
 
