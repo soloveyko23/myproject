@@ -908,15 +908,6 @@ h6 {
   }
 }
 
-@media (max-width: 64em) {
-  .page-site__right::before {
-    right: 4vw;
-    width: 74vw;
-    height: 74vw;
-    bottom: -75vh;
-  }
-}
-
 @media (max-width: 62em) {
   .button {
     font-size: 1.2195rem;
@@ -1006,9 +997,15 @@ h6 {
 
   .page-site__right::before {
     width: 70vw !important;
-    height: 70vw;
+    height: 70vw !important;
     bottom: -25vh !important;
-    right: -10%;
+    right: -10% !important;
+  }
+
+  .page-site__right .site-icon {
+    bottom: -35vw !important;
+    width: 115vw !important;
+    right: -30vw !important;
   }
 
   .site-left__footer {
@@ -1064,6 +1061,12 @@ h6 {
     height: 100vw !important;
     right: -10vw !important;
     bottom: -20vh !important;
+  }
+
+  .page-site__right .site-icon {
+    bottom: -20vh !important;
+    width: 135vw !important;
+    right: -36vw;
   }
 
   .site-left p {
@@ -1163,6 +1166,21 @@ h6 {
   }
 }
 
+@media (max-width: 34.375em) {
+  .page-site__right .site-icon {
+    bottom: -35vw !important;
+  }
+}
+
+@media (max-width: 64em) and (min-width: 48em) {
+  .page-site__right::before {
+    right: 4vw;
+    width: 74vw;
+    height: 74vw;
+    bottom: -75vh;
+  }
+}
+
 @media (max-width: 93.75em) and (min-width: 75em) {
   .page-site__right .site-icon {
     width: 84vw !important;
@@ -1211,27 +1229,6 @@ h6 {
 @media (max-width: 62em) and (min-width: 48em) and (max-height: 50em) {
   .page-site__right .site-icon {
     width: 80vw !important;
-  }
-}
-
-@media (max-width: 48em) and (min-width: 34.375em) {
-  .page-site__right .site-icon {
-    bottom: -35vw !important;
-    width: 115vw !important;
-    right: -30vw !important;
-  }
-}
-
-@media (max-width: 34.375em) and (min-width: 30em) {
-  .page-site__right .site-icon {
-    bottom: -35vw !important;
-  }
-}
-
-@media (max-width: 30em) and (min-width: 25em) {
-  .page-site__right .site-icon {
-    bottom: -30vw !important;
-    width: 135vw !important;
   }
 }
 
