@@ -953,7 +953,7 @@ h6 {
   }
 
   .page-site__right::before {
-    bottom: -55vh !important;
+    bottom: -60vh !important;
   }
 }
 
@@ -1174,14 +1174,14 @@ h6 {
 
 @media (max-width: 64em) and (min-width: 48em) {
   .page-site__right::before {
-    right: 4vw;
-    width: 74vw;
-    height: 74vw;
-    bottom: -75vh;
+    right: -2vw !important;
+    width: 50vw;
+    height: 50vw;
+    bottom: -45vh;
   }
 }
 
-@media (max-width: 93.75em) and (min-width: 75em) {
+@media (max-width: 93.75em) and (min-width: 80em) {
   .page-site__right .site-icon {
     width: 84vw !important;
     right: -11vw !important;
@@ -1189,13 +1189,14 @@ h6 {
   }
 }
 
-@media (max-width: 93.75em) and (min-width: 75em) and (max-height: 50em) {
+@media (max-width: 93.75em) and (min-width: 80em) and (max-height: 50em) {
   .page-site__right .site-icon {
     width: 70vw !important;
+    bottom: -55vh !important;
   }
 }
 
-@media (max-width: 75em) and (min-width: 64em) {
+@media (max-width: 80em) and (min-width: 64em) {
   .page-site__right .site-icon {
     width: 70vw !important;
     right: -5vw !important;
@@ -1221,7 +1222,7 @@ h6 {
 @media (max-width: 62em) and (min-width: 48em) {
   .page-site__right .site-icon {
     right: -22vw !important;
-    bottom: -56vh !important;
+    bottom: -15vh !important;
     width: 95vw !important;
   }
 }
